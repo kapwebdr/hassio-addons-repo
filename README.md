@@ -2,8 +2,7 @@
 
 Some of my addons for Home Assistant.
 
-* [DahuaVtoMqtt](https://github.com/kapwebdr/hassio-addon-dahuavto2mqtt)
-* [TeslaMate](https://github.com/kapwebdr/hassio-addon-influxdb2)
+* [DahuaVtoMqtt](https://github.com/kapwebdr/hassio-addons-repo/tree/master/dahuavto2mqtt)
 
 ## Adding to Home Assistant
 

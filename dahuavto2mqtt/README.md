@@ -1,5 +1,7 @@
 # Hass.io Add-on: Dahua VTO to MQTT Broker
 
+A rewrite of elad-bar Add On, that work on S6 overlay v3 
+
 Sends Dahua Intercom events to the MQTT Broker
 
 ![Supports aarch64 Architecture][aarch64-shield] ![Supports amd64 Architecture][amd64-shield] ![Supports armhf Architecture][armhf-shield] ![Supports armv7 Architecture][armv7-shield] ![Supports i386 Architecture][i386-shield]
@@ -9,7 +11,7 @@ Sends Dahua Intercom events to the MQTT Broker
 The installation of this add-on is straightforward and easy to do.
 
 1. Navigate in your Home Assistant frontend to **Hass.io** -> **Add-on Store**.
-2. Add a new repository by URL `https://github.com/elad-bar/Hassio-addons`
+2. Add a new repository by URL `https://github.com/kapwebdr/hassio-addons-repo`
 3. Find the "DahuaVTO2MQTT" add-on and click it.
 4. Click on the "INSTALL" button.
 
@@ -49,8 +51,7 @@ Add-on configuration:
 - None. Let me know.
 
 ## Credits
-Using [riogrande75's][original-author] PHP code that connects your intercom and publishes events via MQTT broker.
-Thanks to [troykelly's][original-addon-author], I created that Hass.io addon.
+Using [elad-bar][original-author] Add on.
 
 ## Support
 
