@@ -3,6 +3,7 @@
 Some of my addons for Home Assistant.
 
 * [DahuaVtoMqtt](https://github.com/kapwebdr/hassio-addons-repo/tree/master/dahuavto2mqtt)
+* [InfluxDb 2.6.1](https://github.com/kapwebdr/hassio-addons-repo/tree/master/influxdb2)
 
 ## Adding to Home Assistant
 
