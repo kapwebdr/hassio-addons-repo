@@ -1,0 +1,36 @@
+name: "DahuaVTO2MQTT"
+description: "Listens to events from Dahua VTO unit and publishes them via MQTT Message"
+version: "1.0.5"
+slug: "dahuavto2mqtt"
+startup: "services"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+options:
+  intercom:
+    host: "192.168.1.72"
+    ssl: false
+    username: "admin"
+    password: "admin"
+  mqtt:
+    host: "core-mosquitto"
+    port: "1883"
+    username: "admin"
+    password: "admin"
+    topic_prefix: "DahuaVTO"
+schema:
+  intercom:
+    host: "str?"
+    ssl: "bool?"
+    username: "str?"
+    password: "str?"
+  mqtt:
+    host: "str?"
+    port: "int?"
+    username: "str?"
+    password: "str?"
+    topic_prefix: "str?"
