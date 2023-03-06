@@ -71,6 +71,5 @@ In case you've found a bug, please [open an issue on our GitHub][issue].
 [issue]: https://github.com/elad-bar/Hassio-addons/issues
 [source-shield]: https://img.shields.io/badge/version-master-blue.svg
 [source]: https://github.com/elad-bar/Dahua/tree/master
-[original-author]: https://github.com/riogrande75/Dahua
-[original-addon-author]: https://github.com/troykelly/
+[original-author]: https://github.com/elad-bar/Hassio-addons
 [documentation]: https://github.com/elad-bar/DahuaVTO2MQTT
