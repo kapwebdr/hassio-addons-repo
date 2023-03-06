@@ -16,4 +16,4 @@ done
 bashio::log.info 'Starting the InfluxDB...'
 
 # Run InfluxDB
-exec influxd
+exec influxd --engine-path /data/engine --bolt-path /data/influxd.bolt
