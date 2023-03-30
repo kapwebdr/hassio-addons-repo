@@ -1,6 +1,6 @@
 {
     "name": "TeslaMate",
-    "version": "1.2.7.2",
+    "version": "dev",
     "slug": "teslamate",
     "description": "A self-hosted data logger for your Tesla.",
     "arch": ["armhf", "armv7", "aarch64", "amd64"],
@@ -60,5 +60,6 @@
     "map": [
         "share:rw"
     ],
-    "url": "https://github.com/matt-FFFFFF/hassio-addon-repository/blob/master/teslamate/README.md"
+    "url": "https://github.com/matt-FFFFFF/hassio-addon-repository/blob/master/teslamate/README.md",
+    "image": "mattffffff/teslamate-{arch}"
   }
